@@ -8,10 +8,10 @@ body {
     min-height: 100vh;
     background-color: #1e1a3c;
     background-image: 
-         url('/assets/images/pattern-circle.svg'),                 
-        url('/assets/images/pattern-squiggly-line-top.svg'),      
-        url('/assets/images/pattern-squiggly-line-bottom-desktop.svg'), 
-        url('/assets/images/background-desktop.png');   
+         url('images/pattern-circle.svg'),                 
+        url('images/pattern-squiggly-line-top.svg'),      
+        url('images/pattern-squiggly-line-bottom-desktop.svg'), 
+        url('images/background-desktop.png');   
 
     background-position: 
         center right -200px,    
@@ -112,7 +112,7 @@ input {
   padding: 20px;
   cursor: pointer;
   text-align: center;
-  background-image: url('/assets/images/icon-upload.svg');
+  background-image: url('images/icon-upload.svg');
     background-repeat: no-repeat;
     background-position: center;
   transition: border-color 0.3s;
@@ -153,4 +153,5 @@ button {
     cursor: pointer;
     font-weight: bold;
     margin-top: 10px;
+
 }
