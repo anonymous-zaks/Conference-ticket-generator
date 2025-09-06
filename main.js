@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const file = avatarInput.files?.[0];
     if (!file) return;
 
-    if (!file.type.startsWith("image/")) {
+    if (!file.type.startsWith("./image/")) {
       showError("Please choose an image file (JPG or PNG).");
       avatarInput.value = "";
       return;
@@ -66,3 +66,4 @@ document.addEventListener("DOMContentLoaded", () => {
     preview.scrollIntoView({ behavior: "smooth", block: "center" });
   });
 });
+
