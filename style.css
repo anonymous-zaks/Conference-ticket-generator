@@ -6,7 +6,7 @@ html, body {
 
 
 body {
-background-image: url("../assets/images/pattern-circle.svg"),
+background-image: url("./images/pattern-circle.svg"),
     url("./images/pattern-squiggly-line-bottom-mobile-tablet.svg"),
     url("./images/pattern-squiggly-line-top.svg"),
     url("./images/pattern-lines.svg"),
@@ -145,5 +145,6 @@ button {
     margin-top: 10px;
 
 }
+
 
 
