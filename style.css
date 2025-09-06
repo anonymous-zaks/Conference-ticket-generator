@@ -4,28 +4,18 @@ html, body {
     padding: 0;
 }
 
+
 body {
-    min-height: 100vh;
-    background-color: #1e1a3c;
-    background-image: 
-         url('./images/pattern-circle.svg'),                 
-        url('./images/pattern-squiggly-line-top.svg'),      
-        url('./images/pattern-squiggly-line-bottom-desktop.svg'), 
-        url('./images/background-desktop.png');   
-
-    background-position: 
-        center right -200px,    
-        top right 40px,       
-        bottom left -80px,    
-        center;               
-
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-
-    background-size: 
-        100% 200px,    
-        320px,        
-        820px,        
-        cover;
+background-image: url("../assets/images/pattern-circle.svg"),
+    url("./images/pattern-squiggly-line-bottom-mobile-tablet.svg"),
+    url("./images/pattern-squiggly-line-top.svg"),
+    url("./images/pattern-lines.svg"),
+    url(".images/background-mobile.png");
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 100px, 70%, 100px, cover, cover;
+  background-position: top 70% right -50px, bottom left, top 1rem right,
+    top center, center center;
+  background-attachment: fixed, fixed, fixed, fixed, fixed;
 }
 .form-wrapper {
   display: flex;
@@ -155,4 +145,5 @@ button {
     margin-top: 10px;
 
 }
+
 
